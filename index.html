@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>思念海 · 个人网站</title>
+    <meta name="description" content="一个 AI 实习生求职的故事｜记录学习与创作｜杭州 · 21岁">
+    <meta property="og:title" content="思念海 · 个人网站">
+    <meta property="og:description" content="一个 AI 实习生求职的故事｜记录学习与创作｜杭州 · 21岁">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <header class="site-header" role="banner">
+      <div class="container nav">
+        <div class="brand">思念海</div>
+        <nav class="primary-nav" aria-label="主导航">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="展开菜单">☰</button>
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#works">作品</a></li>
+            <li><a href="#contact">联系</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="英雄区与轮播">
+        <div class="hero-content container">
+          <h1>一个 AI 实习生求职的故事</h1>
+          <p class="subtitle">记录我的学习与创作｜杭州 · 21岁</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#works">查看作品</a>
+            <a class="btn btn-secondary" href="#contact">商务合作</a>
+          </div>
+        </div>
+        <div class="carousel" aria-roledescription="轮播" aria-label="照片轮播" aria-live="polite">
+          <button class="carousel-control prev" aria-label="上一张">‹</button>
+          <div class="carousel-track" role="list">
+            <!-- slides will be injected by JS using images from imag/ -->
+          </div>
+          <button class="carousel-control next" aria-label="下一张">›</button>
+          <div class="carousel-dots" role="tablist" aria-label="轮播分页"></div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-about" aria-labelledby="about-title">
+        <div class="container two-col">
+          <div class="about-media">
+            <figure>
+              <img src="imag/制作社交媒体封面.png" alt="思念海的形象照或代表作品" loading="lazy">
+            </figure>
+          </div>
+          <div class="about-content">
+            <h2 id="about-title">关于我</h2>
+            <p>
+              我是思念海，一名热爱学习的新世代创作者，正在探索 AI、产品与内容的交叉点。这里记录我在杭州的学习与创作日常，也欢迎业务合作与交流。
+            </p>
+            <ul class="tags" aria-label="方向标签">
+              <li>AI</li>
+              <li>内容创作</li>
+              <li>视频</li>
+              <li>产品思维</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="works" class="section section-works" aria-labelledby="works-title">
+        <div class="container">
+          <h2 id="works-title">精选作品</h2>
+          <div class="card-grid">
+            <article class="card">
+              <figure class="card-media">
+                <img src="imag/制作社交媒体封面 (1).png" alt="作品封面一" loading="lazy">
+              </figure>
+              <div class="card-body">
+                <h3><a href="https://vcngyhk2ioud.feishu.cn/wiki/SZmUwLwEwiozxmkcv3wc9yBwnbG?from=from_copylink" target="_blank" rel="noopener noreferrer">学习 Cursor 的一天</a></h3>
+                <p>记录使用 AI 辅助开发的工作流与心得。</p>
+                <div class="chip-row">
+                  <span class="chip">AI</span>
+                  <span class="chip">学习</span>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <figure class="card-media">
+                <img src="imag/制作社交媒体封面 (2).png" alt="作品封面二" loading="lazy">
+              </figure>
+              <div class="card-body">
+                <h3><a href="https://vcngyhk2ioud.feishu.cn/wiki/O8GOw9UkIi68JpkGpvoc5J36nBf?from=from_copylink" target="_blank" rel="noopener noreferrer">关于 AI 训练师工作流</a></h3>
+                <p>实际岗位中的 AI 训练流程与最佳实践要点。</p>
+                <div class="chip-row">
+                  <span class="chip">记录</span>
+                  <span class="chip">产品</span>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <figure class="card-media">
+                <img src="imag/制作社交媒体封面 (3).png" alt="作品封面三" loading="lazy">
+              </figure>
+              <div class="card-body">
+                <h3><a href="https://www.xiaohongshu.com/discovery/item/68ac7c80000000001c03240d?app_platform=ios&app_version=8.97.1&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBTEnwbtdohni8AHdg_x1mTBtEAEGIEdZRDmRSd1N52Qo=&author_share=1&xhsshare=WeixinSession&shareRedId=ODY3NEdLSEE2NzUyOTgwNjY0OTc3Ozs5&apptime=1756134567&share_id=6bcb814cc39b4e6883aac65bd0fbf2f3" target="_blank" rel="noopener noreferrer">超实用软件大赏，轻松提升效率</a></h3>
+                <p>我常用的高效工具清单，提升学习与创作效率。</p>
+                <div class="chip-row">
+                  <span class="chip">视频</span>
+                  <span class="chip">方法</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-contact" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title">合作与联系</h2>
+          <p>欢迎商务合作或内容交流，点击下方按钮即可联系。</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:example@example.com">邮件联系</a>
+            <a class="btn btn-secondary" href="#footer-social">查看社交</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-top">
+        <div class="footer-brand">思念海 · 个人网站</div>
+      </div>
+      <div id="footer-social" class="container footer-bottom">
+        <ul class="social-links" aria-label="社交媒体链接">
+          <li>
+            <a href="https://v.douyin.com/Pc5irC9_oK0/" target="_blank" rel="noopener noreferrer" aria-label="抖音">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14.5 3c.5 1.9 1.8 3.7 4 4v3.1c-1.7-.1-3.2-.7-4.5-1.6v6.5c0 3-2.4 5.5-5.5 5.5S3 18 3 15c0-2.8 2-5 4.7-5.4v3.3c-.8.3-1.4 1.1-1.4 2.1 0 1.2 1 2.2 2.2 2.2s2.2-1 2.2-2.2V3h3.8z" fill="currentColor"/>
+              </svg>
+              <span class="sr-only">抖音</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.xiaohongshu.com/user/profile/6054dfd80000000001003650?xsec_token=YBEO35-vOnBitQfbTxNdStg_jGoCESuI4jlUyF7mhfTww=&xsec_source=app_share&xhsshare=CopyLink&appuid=6054dfd80000000001003650&apptime=1756133725&share_id=cf8707ecfdae4476909155199562c24f" target="_blank" rel="noopener noreferrer" aria-label="小红书">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="4" fill="currentColor"/>
+                <path d="M7.2 9.2h1.6v2h1.2v1.4H8.8v2.2H7.2v-2.2H6V11.2h1.2v-2zM12 9.2h1.6v5.6H12V9.2zm3 .0h1.6v2h1.2v1.4h-1.2v2.2H15v-2.2h-1.2V11.2H15v-2z" fill="#ffffff"/>
+              </svg>
+              <span class="sr-only">小红书</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://b23.tv/ku43VUI" target="_blank" rel="noopener noreferrer" aria-label="B站">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="4" y="7" width="16" height="11" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M9 5l2 2M15 5l-2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M8 12h2M14 12h2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              <span class="sr-only">哔哩哔哩</span>
+            </a>
+          </li>
+        </ul>
+        <div class="copyright">© 2024 思念海</div>
+      </div>
+    </footer>
+
+    <script src="scripts/carousel.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+  </body>
+  </html>
+
+

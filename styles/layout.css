@@ -1,0 +1,9 @@
+/* Layout utilities and section spacings */
+.section-about { background: transparent; }
+.section-works { background: transparent; }
+.section-contact { background: transparent; }
+
+/* Visual separators (optional) */
+.section + .section { border-top: 1px solid rgba(255,255,255,0.06); }
+
+

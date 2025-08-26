@@ -1,0 +1,15 @@
+/* Component-specific refinements */
+
+/* Nav hover underline */
+.primary-nav a { position: relative; }
+.primary-nav a::after { content: ""; position: absolute; left: 0; right: 0; bottom: -6px; height: 2px; background: #111827; transform: scaleX(0); transform-origin: left; transition: transform .2s ease; }
+.primary-nav a:hover::after { transform: scaleX(1); }
+
+/* Focus outlines */
+:where(a, button, .btn, .carousel-dot):focus { outline: 3px solid rgba(17, 24, 39, 0.3); outline-offset: 2px; }
+
+/* Card subtle border on hover */
+.card { transition: box-shadow .2s ease, transform .2s ease; }
+.card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.08); transform: translateY(-2px); }
+
+
